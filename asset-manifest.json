@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/coim-authenticator-privacy-policy/static/css/main.85ecc7ba.css",
+    "main.js": "/coim-authenticator-privacy-policy/static/js/main.e9904e47.js",
+    "static/js/453.b4634ac6.chunk.js": "/coim-authenticator-privacy-policy/static/js/453.b4634ac6.chunk.js",
+    "index.html": "/coim-authenticator-privacy-policy/index.html",
+    "main.85ecc7ba.css.map": "/coim-authenticator-privacy-policy/static/css/main.85ecc7ba.css.map",
+    "main.e9904e47.js.map": "/coim-authenticator-privacy-policy/static/js/main.e9904e47.js.map",
+    "453.b4634ac6.chunk.js.map": "/coim-authenticator-privacy-policy/static/js/453.b4634ac6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85ecc7ba.css",
+    "static/js/main.e9904e47.js"
+  ]
+}
