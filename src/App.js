@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import PolicySection from './components/PolicySection';
 import Loader from './components/Loader';
+// import PrivacyControlPanel from './components/PrivacyControlPanel';
 import BackgroundAnimation from './components/BackgroundAnimation';
 import { privacyPolicySections } from './data/policyData';
 import './styles/App.css';
@@ -63,8 +64,8 @@ const App = () => {
             initial="hidden"
             animate="visible"
           >
-            <Header currentDate={currentDate} currentUser={currentUser} />
-            <PrivacyControlPanel />
+            <Header />
+            {/* <PrivacyControlPanel /> */}
             {privacyPolicySections.map((section, index) => (
               <PolicySection
                 key={index}

@@ -61,7 +61,7 @@ const InfoItem = styled.div`
   gap: 6px;
 `;
 
-const Header = ({ currentDate, currentUser }) => {
+const Header = () => {
     return (
         <HeaderContainer>
             <LogoContainer
@@ -95,24 +95,6 @@ const Header = ({ currentDate, currentUser }) => {
                 We are committed to protecting your privacy and providing a secure authentication experience.
                 This document outlines how we handle your information when you use our COIM Authenticator app.
             </Description>
-
-            <InfoBar
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 1, duration: 0.8 }}
-            >
-                <InfoItem>
-                    <span>Last Updated:</span>
-                    <span>{currentDate}</span>
-                </InfoItem>
-                <InfoItem>
-                    <span>•</span>
-                </InfoItem>
-                <InfoItem>
-                    <span>Document ID:</span>
-                    <span>{currentUser}</span>
-                </InfoItem>
-            </InfoBar>
         </HeaderContainer>
     );
 };

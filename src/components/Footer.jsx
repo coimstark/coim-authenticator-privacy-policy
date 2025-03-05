@@ -138,7 +138,7 @@ const Footer = () => {
 
             <SocialLinks variants={itemVariants}>
                 <IconLink
-                    href="https://github.com/your-username/totp-authenticator"
+                    href="https://github.com/coimstark"
                     target="_blank"
                     rel="noopener noreferrer"
                     custom={0}
@@ -148,7 +148,7 @@ const Footer = () => {
                     <IoLogoGithub />
                 </IconLink>
                 <IconLink
-                    href="mailto:contact@example.com"
+                    href="mailto:kwcoim@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     custom={1}
@@ -158,7 +158,7 @@ const Footer = () => {
                     <IoMail />
                 </IconLink>
                 <IconLink
-                    href="https://example.com"
+                    href="https://coimstark.github.io/coim-authenticator-privacy-policy"
                     target="_blank"
                     rel="noopener noreferrer"
                     custom={2}
@@ -170,7 +170,7 @@ const Footer = () => {
             </SocialLinks>
 
             <FooterText variants={itemVariants}>
-                For any questions regarding this privacy policy, please contact us at privacy@example.com
+                For any questions regarding this privacy policy, please contact us at kwcoim@gmail.com
             </FooterText>
         </FooterContainer>
     );
