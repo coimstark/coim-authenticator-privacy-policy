@@ -64,7 +64,7 @@ const App = () => {
             animate="visible"
           >
             <Header currentDate={currentDate} currentUser={currentUser} />
-
+            <PrivacyControlPanel />
             {privacyPolicySections.map((section, index) => (
               <PolicySection
                 key={index}
